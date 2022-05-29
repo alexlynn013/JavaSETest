@@ -3,9 +3,13 @@ package with_ide;
 public class Q1Factorial {
 
     public static void main(String[] args) {
-        int x = 5;
-        int y = 10;
-        int factorial = x * y;
-        System.out.println(factorial);
+        int n=5,fact=1;
+
+        for(int i=1;i<=n;i++)
+        {
+            fact=fact*i;
+        }
+
+        System.out.println("factoral="+fact);
     }
 }
